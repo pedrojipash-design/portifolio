@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Meu Portfólio</title>
+  </head>
+  <body class="topo">
+    <style>
+      .topo{
+        background-color: #161414;
+        color: white;
+        text-align: center;
+      }
+
+      .central {
+        background-color: #161414;
+        padding: 20px 32px;
+        border-bottom: 0px solid #e5e7eb;
+        margin-bottom: 24px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 12px;
+        font-weight: 100;
+        word-spacing: 30px;
+        cursor: pointer;
+        position: sticky;
+        top:0;
+      }
+
+      .opcoes{
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .opcoes:hover{
+        color: rgb(51, 54, 54);
+      }
+      
+
+      .comeco{
+        text-align: center;
+        padding: 30px;
+        margin: 80px;
+        columns: 2;
+        gap: 0;
+      }
+
+      .hero{
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem; 
+      }
+      
+      .perfil-nome{
+        font-size: 40px;
+        margin: 32px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        font-weight: 100;
+        
+      }
+
+
+      .descricao{
+        font-size: 20px;
+        opacity: 50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 32px;
+        
+      }
+
+      .frase{
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 100;
+        margin: 32px;
+
+      }
+
+      .foto1 {
+        border-radius: 100%;
+      }
+
+      .meio{
+        padding: 120px;
+        margin: 12px;
+      }
+
+      .sobre{
+        margin: 62px ;
+
+        
+      }
+
+      .categoria {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 100;
+      }
+
+      .detalhes{
+        font-size: 20px;
+        background-color: #373737;
+        padding: 60px;
+        margin: 52px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-radius: 20px;
+      }
+
+      .fotos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+      }
+
+      .escola1{
+        background-color: #373737;
+        padding: 32px;
+        margin: 30px;
+        border-radius: 12px;
+        gap: 0;
+      }
+
+      .escola2{
+        background-color: #373737;
+        padding: 32px;
+        margin: 30px;
+        border-radius: 12px;
+        gap: 0;
+      }
+
+      .escola3{
+        background-color: #373737;
+        padding: 32px;
+        margin: 30px;
+        border-radius: 12px;
+        gap: 0;
+      }
+
+      .escola-nome{
+        font-size: 32px;
+        font-weight: 100;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      .escola-tempo{
+        font-size: 20px;
+        opacity: 55%;
+
+      }
+
+      .escola-foto{
+       width: 300px;
+       border-radius: 16px;
+       justify-content: center;
+       padding: 6px;
+      }
+
+      .contato{
+        padding: 200px;
+        margin: 100px;
+        
+      }
+      .caixa{
+        background-color:#373737;
+        color: white;
+        padding: 10px;
+        margin: 30px;
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .caixa:hover{
+        background-color: grey;
+      }
+
+      .suporte{
+        font-size: 25px;
+        font-weight: 100;
+      }
+
+      .meu{
+        font-size: 25px;
+        opacity: 55%;
+      }
+
+      .logo{
+        color:white;
+        width: 50px;
+      }
+
+      .final{
+        background-color: #282526;
+        padding: 25px;
+      }
+
+      .logo-port{
+        width: 45px;
+        justify-content: center;
+        padding: 10px;
+        cursor: pointer;
+        gap: 0;
+      }
+      
+    </style>
+    <header class="topo"></header>
+    <div class="central">
+      <a href="#comeco" class="opcoes">Bem-vindo</a>
+      <a href="#meio" class="opcoes">Sobre</a>
+      <a href="#penultimo" class="opcoes">Educação</a>
+      <a href="#fim" class="opcoes">Contato</a>
+    </div>
+
+    <section class="cabecalho">
+
+  <div class="comeco" id="comeco">
+
+    <div class="hero">
+      <h2 class="perfil-nome"><i>Olá!</i> Eu sou o<br>Pedro Henrique!</h2>
+      
+      <p class="descricao">Desenvolvedor Mirin</p>
+      
+      <p class="frase">Transformo ideias em <br>experiências visuais</p>
+    </div>
+
+    <div class="foto">
+       <img
+        class="foto1"
+        src="https://lh3.googleusercontent.com/a/ACg8ocIDv4oKCAU44ls_EeF9HAg0H-454etF2vLjuGDo8F-wf0ygD1E=s288-c-no"
+        alt="minha foto"
+      />
+    </div>
+ </div>
+
+    <div class="meio" id="meio">
+    <div class="sobre">
+      <h1 class="categoria">Sobre Mim</h1>
+      <br>
+      <p class="detalhes">
+        Meu nome é Pedro Henrique Alves de Sousa. Tenho 16 anos , gosto de tocar
+        musíca atualmente estou no violão mais eu tocava ukulele ,gosto de fazer
+        teatro,gosto de ler e gosto de informática.E atualmente fazendo curso de programação.</p>
+  </div>
+</div>
+
+<div class="penultimo" id="penultimo">
+
+      <h1 class="categoria">Educação</h1>
+
+
+      <div class="fotos">
+
+
+    <div class="escola1">
+      <img
+        class="escola-foto"
+        src="https://s2.glbimg.com/RgjiDSdRHYQUrYDNyxdQYaip4Oo=/1200x630/s.glbimg.com/jo/g1/f/original/2015/01/12/furto_escolap_jipa.jpg"
+        alt="escola"
+      />
+      <h2 class="escola-nome">Marcos Bispo da Silva </h2>
+      <p class="escola-tempo">2 anos</p>
+    </div>
+
+    <div class="escola2">
+      <img
+        class="escola-foto"
+        src="https://www.rondoniadinamica.com/uploads/6dfpm9bx6v72ve0.jpg"
+        alt="escola"
+      />
+      <h2 class="escola-nome">Oswaldo Pianna</h2>
+      <p class="escola-tempo">9 anos</p>
+    </div>
+
+  <div class="escola3">
+      <img
+        class="escola-foto"
+        src="https://rul.com.br/noticias/ffab7dbb4d.jpg"
+        alt="Escola"
+      />
+      <h2 class="escola-nome">Fundação Jicred</h2>
+      <p class="escola-tempo">2 anos</p>
+      </div>
+    
+    </div>
+
+  </div>
+
+</div>
+
+    <div class="contato" id="fim">
+
+      <h1 class="categoria">Contato</h1>
+
+      <div class="caixa">
+      <img
+        class="logo"
+        src="fotos/email .png">
+        <h3 class="suporte">E-mail</h3>
+        <p class="meu">pedroJipash@gmail.com</p>
+      </div>
+
+      <div class="caixa">
+        <img class="logo" src="fotos/whatsapp.png">
+        <h3 class="suporte">WhatsApp</h3>
+        <p class="meu">993942825</p>
+      </div>
+
+      <div class="caixa">
+        <img class="logo" src="fotos/instagram.png">
+        <h3 class="suporte">Instagram</h3>
+        <p class="meu">alvezxx-xx</p>
+      </div>
+      </div>
+
+      <footer class="final">
+
+        <h1 class="categoria">Portfólio</h1>
+        <img class="logo-port" src="fotos/instagram.png">
+        <img class="logo-port" src="fotos/whatsapp.png">
+        <img class="logo-port" src="fotos/github.png">
+        <p class="direitos">&copy;Alvezxx_xx. Todos os direitos reservados.</p>
+      
+      </footer>
+
+  </body>
+</html>
